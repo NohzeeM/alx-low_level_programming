@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- *
- * 
+ * main - this the main put function
+ * Return: 0
  */
 int main(void)
 {
