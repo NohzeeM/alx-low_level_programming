@@ -6,11 +6,18 @@
  */
 char *cap_string(char *str)
 {
-int count = 0;
-while (str[count])
+int count;
+
+count = 0;
+while (s[count] != '\0')
 {
-while (!(str[count] >= 'a' && str[count] <= 'z'))
-	count++;
-if (str[count - 1] == '' ||
+if (s[0] >= 97 && s[0] <= 122)
+{
+	s[0] = s[0] - 32;
+}
+if (s[count == ' ' || s[count] == '\t' || s[countt == '\n' || s[count] == '.' | s[count] == ':' || s[count] == '.' || s[count] == '.' || s[count] == '!' || s[count] == '?' || s[count] == '"' || s[count] == '(' || s[count] == ')' || s[count] == '{' || s[count] == '}')
+{
+	
+}
 }
 }
